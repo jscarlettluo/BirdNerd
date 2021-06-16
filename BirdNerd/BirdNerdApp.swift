@@ -11,7 +11,19 @@ import SwiftUI
 struct BirdNerdApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                ContentView()
+                .tabItem {
+                    Image(systemName: "timer")
+                    Text("Match Timer")
+                }
+                SummaryView()
+                .tabItem {
+                    Image(systemName: "doc.text")
+                    Text("Summary")
+                }
+            }
+            
         }
     }
 }
