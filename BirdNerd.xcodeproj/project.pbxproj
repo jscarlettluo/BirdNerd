@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F95027E267A7986005773D5 /* BirdNerdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F95027D267A7986005773D5 /* BirdNerdApp.swift */; };
+		8F950280267A7986005773D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F95027F267A7986005773D5 /* ContentView.swift */; };
+		8F950282267A7987005773D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F950281267A7987005773D5 /* Assets.xcassets */; };
+		8F950285267A7987005773D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F950284267A7987005773D5 /* Preview Assets.xcassets */; };
+		8F950290267A7987005773D5 /* BirdNerdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F95028F267A7987005773D5 /* BirdNerdTests.swift */; };
+		8F95029B267A7988005773D5 /* BirdNerdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F95029A267A7988005773D5 /* BirdNerdUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F95028C267A7987005773D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F950272267A7986005773D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F950279267A7986005773D5;
+			remoteInfo = BirdNerd;
+		};
+		8F950297267A7987005773D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F950272267A7986005773D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F950279267A7986005773D5;
+			remoteInfo = BirdNerd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F95027A267A7986005773D5 /* BirdNerd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdNerd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F95027D267A7986005773D5 /* BirdNerdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdNerdApp.swift; sourceTree = "<group>"; };
+		8F95027F267A7986005773D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8F950281267A7987005773D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F950284267A7987005773D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F950286267A7987005773D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F95028B267A7987005773D5 /* BirdNerdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdNerdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F95028F267A7987005773D5 /* BirdNerdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdNerdTests.swift; sourceTree = "<group>"; };
+		8F950291267A7987005773D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F950296267A7987005773D5 /* BirdNerdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdNerdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F95029A267A7988005773D5 /* BirdNerdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdNerdUITests.swift; sourceTree = "<group>"; };
+		8F95029C267A7988005773D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F950277267A7986005773D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F950288267A7987005773D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F950293267A7987005773D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F950271267A7986005773D5 = {
+			isa = PBXGroup;
+			children = (
+				8F95027C267A7986005773D5 /* BirdNerd */,
+				8F95028E267A7987005773D5 /* BirdNerdTests */,
+				8F950299267A7987005773D5 /* BirdNerdUITests */,
+				8F95027B267A7986005773D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F95027B267A7986005773D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F95027A267A7986005773D5 /* BirdNerd.app */,
+				8F95028B267A7987005773D5 /* BirdNerdTests.xctest */,
+				8F950296267A7987005773D5 /* BirdNerdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F95027C267A7986005773D5 /* BirdNerd */ = {
+			isa = PBXGroup;
+			children = (
+				8F95027D267A7986005773D5 /* BirdNerdApp.swift */,
+				8F95027F267A7986005773D5 /* ContentView.swift */,
+				8F950281267A7987005773D5 /* Assets.xcassets */,
+				8F950286267A7987005773D5 /* Info.plist */,
+				8F950283267A7987005773D5 /* Preview Content */,
+			);
+			path = BirdNerd;
+			sourceTree = "<group>";
+		};
+		8F950283267A7987005773D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8F950284267A7987005773D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8F95028E267A7987005773D5 /* BirdNerdTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F95028F267A7987005773D5 /* BirdNerdTests.swift */,
+				8F950291267A7987005773D5 /* Info.plist */,
+			);
+			path = BirdNerdTests;
+			sourceTree = "<group>";
+		};
+		8F950299267A7987005773D5 /* BirdNerdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F95029A267A7988005773D5 /* BirdNerdUITests.swift */,
+				8F95029C267A7988005773D5 /* Info.plist */,
+			);
+			path = BirdNerdUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F950279267A7986005773D5 /* BirdNerd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F95029F267A7988005773D5 /* Build configuration list for PBXNativeTarget "BirdNerd" */;
+			buildPhases = (
+				8F950276267A7986005773D5 /* Sources */,
+				8F950277267A7986005773D5 /* Frameworks */,
+				8F950278267A7986005773D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirdNerd;
+			productName = BirdNerd;
+			productReference = 8F95027A267A7986005773D5 /* BirdNerd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F95028A267A7987005773D5 /* BirdNerdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9502A2267A7988005773D5 /* Build configuration list for PBXNativeTarget "BirdNerdTests" */;
+			buildPhases = (
+				8F950287267A7987005773D5 /* Sources */,
+				8F950288267A7987005773D5 /* Frameworks */,
+				8F950289267A7987005773D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F95028D267A7987005773D5 /* PBXTargetDependency */,
+			);
+			name = BirdNerdTests;
+			productName = BirdNerdTests;
+			productReference = 8F95028B267A7987005773D5 /* BirdNerdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F950295267A7987005773D5 /* BirdNerdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9502A5267A7988005773D5 /* Build configuration list for PBXNativeTarget "BirdNerdUITests" */;
+			buildPhases = (
+				8F950292267A7987005773D5 /* Sources */,
+				8F950293267A7987005773D5 /* Frameworks */,
+				8F950294267A7987005773D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F950298267A7987005773D5 /* PBXTargetDependency */,
+			);
+			name = BirdNerdUITests;
+			productName = BirdNerdUITests;
+			productReference = 8F950296267A7987005773D5 /* BirdNerdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F950272267A7986005773D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8F950279267A7986005773D5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					8F95028A267A7987005773D5 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8F950279267A7986005773D5;
+					};
+					8F950295267A7987005773D5 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8F950279267A7986005773D5;
+					};
+				};
+			};
+			buildConfigurationList = 8F950275267A7986005773D5 /* Build configuration list for PBXProject "BirdNerd" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F950271267A7986005773D5;
+			productRefGroup = 8F95027B267A7986005773D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F950279267A7986005773D5 /* BirdNerd */,
+				8F95028A267A7987005773D5 /* BirdNerdTests */,
+				8F950295267A7987005773D5 /* BirdNerdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F950278267A7986005773D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F950285267A7987005773D5 /* Preview Assets.xcassets in Resources */,
+				8F950282267A7987005773D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F950289267A7987005773D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F950294267A7987005773D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F950276267A7986005773D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F950280267A7986005773D5 /* ContentView.swift in Sources */,
+				8F95027E267A7986005773D5 /* BirdNerdApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F950287267A7987005773D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F950290267A7987005773D5 /* BirdNerdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F950292267A7987005773D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F95029B267A7988005773D5 /* BirdNerdUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F95028D267A7987005773D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F950279267A7986005773D5 /* BirdNerd */;
+			targetProxy = 8F95028C267A7987005773D5 /* PBXContainerItemProxy */;
+		};
+		8F950298267A7987005773D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F950279267A7986005773D5 /* BirdNerd */;
+			targetProxy = 8F950297267A7987005773D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F95029D267A7988005773D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F95029E267A7988005773D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F9502A0267A7988005773D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BirdNerd/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BirdNerd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IOSdev.BirdNerd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F9502A1267A7988005773D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BirdNerd/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BirdNerd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IOSdev.BirdNerd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F9502A3267A7988005773D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirdNerdTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IOSdev.BirdNerdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirdNerd.app/BirdNerd";
+			};
+			name = Debug;
+		};
+		8F9502A4267A7988005773D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirdNerdTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IOSdev.BirdNerdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirdNerd.app/BirdNerd";
+			};
+			name = Release;
+		};
+		8F9502A6267A7988005773D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirdNerdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IOSdev.BirdNerdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirdNerd;
+			};
+			name = Debug;
+		};
+		8F9502A7267A7988005773D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirdNerdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IOSdev.BirdNerdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirdNerd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F950275267A7986005773D5 /* Build configuration list for PBXProject "BirdNerd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F95029D267A7988005773D5 /* Debug */,
+				8F95029E267A7988005773D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F95029F267A7988005773D5 /* Build configuration list for PBXNativeTarget "BirdNerd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9502A0267A7988005773D5 /* Debug */,
+				8F9502A1267A7988005773D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9502A2267A7988005773D5 /* Build configuration list for PBXNativeTarget "BirdNerdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9502A3267A7988005773D5 /* Debug */,
+				8F9502A4267A7988005773D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9502A5267A7988005773D5 /* Build configuration list for PBXNativeTarget "BirdNerdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9502A6267A7988005773D5 /* Debug */,
+				8F9502A7267A7988005773D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F950272267A7986005773D5 /* Project object */;
+}
