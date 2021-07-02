@@ -9,15 +9,16 @@ import SwiftUI
 
 @main
 struct BirdNerdApp: App {
+    var tracker = MatchTracker()
     var body: some Scene {
         WindowGroup {
             TabView {
-                ContentView()
+                ContentView().environmentObject(tracker)
                 .tabItem {
                     Image(systemName: "timer")
                     Text("Match Timer")
                 }
-                SummaryView()
+                SummaryView().environmentObject(tracker)
                 .tabItem {
                     Image(systemName: "doc.text")
                     Text("Summary")

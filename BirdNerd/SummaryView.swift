@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct SummaryView: View {
+    
+    @EnvironmentObject var tracker: MatchTracker
+
     var body: some View {
         Text("put summary so far here")
     }
